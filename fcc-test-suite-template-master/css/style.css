@@ -9,3 +9,15 @@
     margin: 4rem;
     text-align: center;
 }
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+}
+@media screen {
+    #video {
+        width: 320px;
+        height: 240px;
+    }
+}
