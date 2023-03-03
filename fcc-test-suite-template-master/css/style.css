@@ -3,17 +3,27 @@
     background-color: bisque;
 
 }
+header{
+    position: fixed;
+    top: 0;
+}
 .forminput{
     width: 90%;
     padding: auto;
     margin: 4rem;
     text-align: center;
 }
+nav{
+    position:fixed;
+    top: 0;
+}
 #nav-bar {
-    position: fixed;
-    width: 100%;
     background-color: aqua;
     color: black;
+}
+.nav-link{
+    display: flex;
+
 }
 @media screen {
     #video {
